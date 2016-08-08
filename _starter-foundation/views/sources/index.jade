@@ -1,0 +1,34 @@
+extends components/layout
+
+// Settings
+append vars
+    - var pageTitle = 'projectName'
+    - var pageClass = 'projectName_home'
+
+append body
+    .row
+        .columns
+            ul.pricing-table
+                li.title Standard
+                li.price $99.99
+                li.description An awesome description
+                li.bullet-item 1 Database
+                li.bullet-item 5GB Storage
+                li.bullet-item 20 Users
+                li.cta-button
+                    a.button(href="#") Buy Now
+
+            a.button(href="#") Default Button
+            a.button.success(href="#") Default Button
+            a.button.secondary(href="#") Default Button
+            a.button.alert(href="#") Default Button
+
+    .row
+        .columns
+            a.button.success(href="#" data-reveal-id="myModal") Click Me For A Modal
+
+            div#myModal.reveal-modal(data-reveal)
+                h2 Awesome. I have it.
+                p.lead Your couch.  It is mine.
+                p I'm a cool paragraph that lives inside of an even cooler modal. Wins!
+                a.close-reveal-modal &#215;
