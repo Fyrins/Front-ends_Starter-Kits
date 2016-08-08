@@ -1,0 +1,14 @@
+header
+    // Navigation
+    a#menu-toggle.btn.btn-dark.btn-lg.toggle(href='#')
+        i.fa.fa-bars
+    nav#sidebar-wrapper
+        ul.sidebar-nav
+            a#menu-close.btn.btn-light.btn-lg.pull-right.toggle(href='#')
+                i.fa.fa-times
+            li.sidebar-brand
+                a(href='#top') BRANDING
+            - var menuItems = ["Home", "About", "Services", "Portfolio", "Contact"]
+            each menuItem, index in menuItems
+                li
+                    a(href="#") #{menuItem}
