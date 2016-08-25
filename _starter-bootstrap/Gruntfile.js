@@ -46,6 +46,7 @@ module.exports = function(grunt){
 
         prettify: {
             options: {
+                indent: 4,
                 indent_inner_html: true,
                 preserve_newlines: true,
                 condense: false
