@@ -1,0 +1,38 @@
+extends components/layout
+
+// Settings
+append vars
+    - var pageTitle = 'Test'
+    - var pageClass = 'test_home'
+
+append body
+    // Content
+    .wrapper
+        .row
+            h1 Bootstrap
+        .row    
+            - for (var k = 1; k <= 2; k++)
+                .col-md.col-sm-12
+                    h2 Column #{k}/2 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ipsum unde neque tempora. Voluptate quaerat velit, saepe maiores reprehenderit harum eveniet possimus est assumenda, quos sint id necessitatibus praesentium laudantium!   
+         .row
+            - for (var i = 1; i <= 3; i++)
+                .col-lg.col-md-6.col-sm-12
+                    h2 Column #{i}/3
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ipsum unde neque tempora. Voluptate quaerat velit, saepe maiores reprehenderit harum eveniet possimus est assumenda, quos sint id necessitatibus praesentium laudantium!
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eius aut quibusdam corporis. Modi consequuntur enim sed tenetur labore sit distinctio deleniti minima, ad illum, vero animi laborum ullam quam.
+        .row    
+            - for (var l = 1; l <= 4; l++)
+                .col-md.col-sm-12
+                    h2 Column #{l}/4
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ipsum unde neque tempora. Voluptate quaerat velit, saepe maiores reprehenderit harum eveniet possimus est assumenda, quos sint id necessitatibus praesentium laudantium!
+        .row    
+            - for (var j = 1; j <= 6; j++)
+                .col-md.col-sm-12
+                    h2 Column #{j}/6
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ipsum unde neque tempora. Voluptate quaerat velit, saepe maiores reprehenderit harum eveniet possimus est assumenda, quos sint id necessitatibus praesentium laudantium!
+        .row    
+            - for (var k = 1; k <= 12; k++)
+                .col-md.col-sm-12
+                    h2 Column #{k}/12
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ipsum unde neque tempora. Voluptate quaerat velit, saepe maiores reprehenderit harum eveniet possimus est assumenda, quos sint id necessitatibus praesentium laudantium!

@@ -1,0 +1,54 @@
+// ========================================= //
+// Settings
+// ========================================= //
+
+// *Define your custom font
+@import 'https://fonts.googleapis.com/css?family=Raleway|Roboto';
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+// *Define general font size
+h1 {
+    
+}
+h2 {
+    
+}
+h3 {
+    
+}
+h4 {
+    
+}
+h5 {
+    
+}
+h6 {
+    
+}
+
+// *Define Color, here define your custom color in variable
+$black                  : #000;
+$white                  : #fff;
+
+// * Grid Breakpoints, changing this modifying all the responsiveness
+$xsmall                 : 26.25em!default;  //420px
+$small                  : 40em!default;     //640px
+$xmedium                : 52.5em!default;   //840px
+$medium                 : 64em!default;     //1024px
+$large                  : 90em!default;     //1440px
+
+// *OVERRIDE
+.wrapper { // max-width of your wrapper OR it takes the value of $medium
+
+}
