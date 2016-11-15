@@ -87,7 +87,7 @@ module.exports = function(grunt){
             },
             js: {
                 files: [ 'assets/js/*.js', 'assets/js/class/*.js' ],
-                tasks: [ 'jshint' ],
+                tasks: [ 'jshint' ]
             }
         },
 
@@ -116,19 +116,19 @@ module.exports = function(grunt){
                     'bower_components/what-input/what-input.js',
                     'bower_components/foundation-sites/dist/foundation.js'
                 ],
-                dest: 'assets/js/app.js',
+                dest: 'assets/js/app.js'
             },
             prep_css: {
                 src: [
                     'bower_components/foundation-sites/dist/foundation.css'
                 ],
-                dest: 'assets/css/app.css',
+                dest: 'assets/css/app.css'
             },
             prep_map_css: {
                 src: [
                     'bower_components/foundation/css/foundation.css.map'
                 ],
-                dest: 'assets/css/foundation.css.map',
+                dest: 'assets/css/foundation.css.map'
             }
         },
 
