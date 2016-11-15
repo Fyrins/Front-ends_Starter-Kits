@@ -25,7 +25,6 @@ module.exports = function(grunt){
             compile: {
                 options: {
                     pretty: true,
-                    data: {}
                 },
                 files: [{
                     expand: true,
